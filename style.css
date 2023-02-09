@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-section{
+    padding: 20px;
+}
+
+.image-container img{
+    height: 500px;
+}
+
+#img-title{
+    font-size: 64px;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-family: 'Prata', serif;
+}
+
+#subtitle{
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#autore{
+    font-style: italic;
+    font-weight: 600;
+}
+
+#luogo-montagna{
+    padding: 22px;
+    margin-top: 56px;
+    margin-bottom: 0px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(0deg, black, red, green);
+}
+
+#luogo-mare{
+    padding: 22px;
+    margin-top: 56px;
+    margin-bottom: 0px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(0deg, blue, turquoise, rgb(249, 242, 167));
+}
+
+#luogo-colline{
+    padding: 22px;
+    margin-top: 56px;
+    margin-bottom: 0px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(0deg, green, rgb(215, 215, 107), orange);
+}
+
+#luogo-foresta{
+    padding: 22px;
+    margin-top: 56px;
+    margin-bottom: 0px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(0deg, rgb(12, 201, 135), rgb(107, 215, 199), rgb(223, 140, 102));
+}
+
+#luogo-deserto{
+    padding: 22px;
+    margin-top: 56px;
+    margin-bottom: 0px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(0deg, rgb(203, 85, 132), rgb(208, 35, 64), rgb(223, 140, 102));
+}
+
+#luogo-tundra{
+    padding: 22px;
+    margin-top: 56px;
+    margin-bottom: 0px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(0deg, rgb(6, 99, 211), rgb(132, 166, 235), rgb(178, 234, 247));
+}
+
+#correlati{
+    padding: 0;
+    list-style: none;
+}
+
+a{
+   text-decoration: none;
+}
+
+#mare:visited{
+    color: blue;
+}
+
+#colline:visited{
+    color: green;
+}
+
+#foreste:visited{
+    color: rgb(31, 212, 31);
+}
+
+#deserti:visited{
+    color: rgb(235, 105, 141);
+}
+
+#tundre:visited{
+    color: rgb(112, 209, 226);
+}
+
+li{
+    padding: 6px 0px;
+    padding-left: 22px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+footer{
+    background-color: black;
+}
+
+footer a{
+    color: white;
+    display: block;
+    text-align: center;
+}
